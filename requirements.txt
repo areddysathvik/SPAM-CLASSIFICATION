@@ -1,0 +1,5 @@
+nltk
+pickleshare
+pandas
+tensorflow
+sklearn
