@@ -1,4 +1,3 @@
-from Helper import cv,tfidf
 import pickle
 import pandas as pd
 import streamlit as st
@@ -6,6 +5,31 @@ from collections import Counter
 from itertools import chain
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
+
+from sklearn.feature_extraction.text import TfidfTransformer,CountVectorizer
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+
+import pandas as pd
+import re
+
+cp = pd.read_csv('Corpus')
+
+
+lemm = WordNetLemmatizer()
+sw = stopwords.words('english')
+corpus = []
+for i in range(len(cp.Corpus)):
+    corpus.append(cp.Corpus.loc[i])
+
+cv = CountVectorizer(max_features=40000)
+corpus = cv.fit_transform(corpus).toarray()
+tfidf = TfidfTransformer()
+corpus = tfidf.fit_transform(corpus).toarray()
+
+
+
 
 def preprocess(input):
     scaler = StandardScaler()
