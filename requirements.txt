@@ -3,3 +3,4 @@ pickleshare
 pandas
 tensorflow
 sklearn
+scikit-learn
