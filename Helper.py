@@ -7,6 +7,8 @@ import pandas as pd
 import re
 
 cp = pd.read_csv('Corpus')
+nltk.download('stopwords')
+
 
 
 lemm = WordNetLemmatizer()
