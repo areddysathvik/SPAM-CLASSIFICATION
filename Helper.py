@@ -2,6 +2,7 @@ from sklearn.feature_extraction.text import TfidfTransformer,CountVectorizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
+import nltk
 
 import pandas as pd
 import re
