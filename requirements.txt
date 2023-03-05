@@ -2,5 +2,5 @@ nltk
 pickleshare
 pandas
 tensorflow
-sklearn
 scikit-learn
+streamlit
