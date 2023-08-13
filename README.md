@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 
     bash
 
-```pip install -r requirements.txt```
+pip install -r requirements.txt```
 
 Run the spam classification script:
 
