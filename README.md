@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 
     bash
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 Run the spam classification script:
 
@@ -39,12 +39,12 @@ bash
 
     python spam_classification.py
 
-#Usage
+## Usage
 
 To use the project, provide email text as input to the spam_classification.py script, and it will output whether the email is spam or not.
 
 
-#Contributing
+## Contributing
 
 Contributions to this project are welcome! Feel free to open issues and pull requests for bug fixes, improvements, or new features.
 
@@ -52,6 +52,6 @@ Contributions to this project are welcome! Feel free to open issues and pull req
 
 This project is licensed under the MIT License.
 
-#Contact
+## Contact
 
 For any questions or inquiries, please reach out to Your [areddisathvik@gmail.com].
