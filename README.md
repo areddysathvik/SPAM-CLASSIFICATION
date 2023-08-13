@@ -54,4 +54,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or inquiries, please reach out to Your [areddisathvik@gmail.com].
+For any questions or inquiries, please reach out to [areddisathvik@gmail.com].
