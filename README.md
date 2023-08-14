@@ -23,19 +23,15 @@ The three individual models make predictions on a given email. These predictions
 To run this project locally, follow these steps:
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/areddysathvik/SPAM-CLASSIFICATION.git
-   cd SPAM-CLASSIFICATION 
 
-    Install the required dependencies:
+         git clone https://github.com/areddysathvik/SPAM-CLASSIFICATION.git
 
-    bash
 
-   pip install -r requirements.txt
+Install the required dependencies:
+
+      pip install -r requirements.txt
 
 Run the spam classification script:
-
-bash
 
     python spam_classification.py
 
